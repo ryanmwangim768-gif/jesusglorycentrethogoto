@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gichuru Memorial Senior School</title>
+    <meta
+      name="description"
+      content="Gichuru Memorial Senior School — Excellence Through Knowledge, Discipline, and Integrity."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@700;800&family=JetBrains+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="announcement-bar">
+      <span>📢 Admission window now open for 2026 intake.</span>
+      <button class="announcement-close" aria-label="Dismiss announcement">×</button>
+    </div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#home" class="brand">
+          <div class="brand-badge">GM</div>
+          <div>
+            <strong>Gichuru Memorial</strong>
+            <span>Senior School</span>
+          </div>
+        </a>
+
+        <button class="nav-toggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="main-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#academics">Academics</a>
+          <a href="#admissions">Admissions</a>
+          <a href="#departments">Departments</a>
+          <a href="#student-life">Student Life</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#news">News</a>
+          <a href="#staff">Staff</a>
+          <a href="#contact">Contact</a>
+          <a href="portal.html" class="nav-portal">Portal</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="icon-button search-trigger" aria-label="Open search">⌕</button>
+          <button class="theme-toggle" aria-label="Toggle theme">🌙</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="floating-dock">
+      <a href="#home" class="dock-item active">Home</a>
+      <a href="#about" class="dock-item">About</a>
+      <a href="#academics" class="dock-item">Academics</a>
+      <a href="#admissions" class="dock-item">Admissions</a>
+      <a href="#contact" class="dock-item">Contact</a>
+    </div>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Excellence Through Knowledge, Discipline, and Integrity.</p>
+            <div class="falling-text-container">
+              <canvas class="falling-text-canvas" width="800" height="240"></canvas>
+              <div class="falling-text-target" id="fallingTextTarget">
+                <span class="word">Build</span>
+                <span class="word highlighted">bright</span>
+                <span class="word">futures</span>
+                <span class="word">with</span>
+                <span class="word">purpose,</span>
+                <span class="word">discipline,</span>
+                <span class="word">and</span>
+                <span class="word">vision.</span>
+              </div>
+            </div>
+            <p class="hero-sub">
+              Gichuru Memorial Senior School inspires curiosity, integrity, and high achievement
+              through excellent teaching and a vibrant campus life.
+            </p>
+            <div class="hero-actions">
+              <a href="#admissions" class="specular-button specular-button--md btn btn-primary">
+                <span class="specular-button__label">Apply Now</span>
+              </a>
+              <a href="#academics" class="specular-button specular-button--md btn btn-secondary">
+                <span class="specular-button__label">Explore Programs</span>
+              </a>
+              <a href="#about" class="specular-button specular-button--md btn btn-ghost">
+                <span class="specular-button__label">Learn More</span>
+              </a>
+            </div>
+            <div class="hero-info">
+              <div>
+                <strong>1200+</strong>
+                <span>Students</span>
+              </div>
+              <div>
+                <strong>68</strong>
+                <span>Teachers</span>
+              </div>
+              <div>
+                <strong>94%</strong>
+                <span>Transition Rate</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card glass-card">
+            <div class="mini-card">
+              <span>Academic Year</span>
+              <strong>2026/27</strong>
+            </div>
+            <div class="countdown-card">
+              <p>Admissions Deadline</p>
+              <div class="countdown" data-deadline="2026-09-18T00:00:00"></div>
+            </div>
+            <div class="schedule-list">
+              <div><span>8:00</span><strong>Assembly</strong></div>
+              <div><span>10:20</span><strong>STEM Clinic</strong></div>
+              <div><span>14:00</span><strong>Co-curricular</strong></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats section">
+        <div class="container stats-grid">
+          <div class="stat-box">
+            <strong class="counter" data-target="1200">0</strong>
+            <span>Students</span>
+          </div>
+          <div class="stat-box">
+            <strong class="counter" data-target="68">0</strong>
+            <span>Teachers</span>
+          </div>
+          <div class="stat-box">
+            <strong class="counter" data-target="3600">0</strong>
+            <span>Graduates</span>
+          </div>
+          <div class="stat-box">
+            <strong class="counter" data-target="18">0</strong>
+            <span>Clubs</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container two-col">
+          <div>
+            <p class="section-tag">About Us</p>
+            <h2>Our legacy is built on commitment, scholarship, and service.</h2>
+            <p>
+              Since its founding, the school has become a leading centre of academic excellence,
+              character formation, and student leadership. We champion a nurturing environment where
+              every learner grows with confidence and purpose.
+            </p>
+            <div class="timeline">
+              <div class="timeline-item">
+                <span>1988</span>
+                <div><strong>Founded</strong><p>With a vision to uplift education in the community.</p></div>
+              </div>
+              <div class="timeline-item">
+                <span>2012</span>
+                <div><strong>STEM Expansion</strong><p>Launch of digital labs and innovation programmes.</p></div>
+              </div>
+              <div class="timeline-item">
+                <span>2025</span>
+                <div><strong>National Recognition</strong><p>Outstanding results and community impact.</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="glass-card leadership-card">
+            <h3>Principal's Welcome</h3>
+            <p>
+              “At Gichuru Memorial, we aim to mentor young minds to think boldly, act responsibly,
+              and serve with integrity.”
+            </p>
+            <div class="leader-data">
+              <div class="avatar">PM</div>
+              <div>
+                <strong>Mrs. Hellen Mwangi</strong>
+                <span>Principal</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-section" id="academics">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-tag">Academics</p>
+            <h2>14 carefully structured subject pathways for deep learning.</h2>
+          </div>
+          <div class="accordion-list">
+            <div class="accordion-item active">
+              <button class="accordion-button">
+                <span>01</span><strong>Sciences</strong><em>Biology, Chemistry, Physics</em>
+              </button>
+              <div class="accordion-panel">
+                <p>Hands-on experimentation, modern laboratories, and research-led instruction.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-button">
+                <span>02</span><strong>Languages</strong><em>English & Kiswahili</em>
+              </button>
+              <div class="accordion-panel">
+                <p>Communication mastery, literature appreciation, and public speaking excellence.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-button">
+                <span>03</span><strong>Humanities</strong><em>History, Geography, CRE</em>
+              </button>
+              <div class="accordion-panel">
+                <p>Critical thinking, civic awareness, and learner-centered inquiry.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-button">
+                <span>04</span><strong>ICT & Business</strong><em>Computer Studies, Business Studies</em>
+              </button>
+              <div class="accordion-panel">
+                <p>Digital fluency, entrepreneurship, and productivity aligned to 21st century needs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="admissions">
+        <div class="container two-col">
+          <div>
+            <p class="section-tag">Admissions</p>
+            <h2>Begin your journey with a seamless application experience.</h2>
+            <ul class="checklist">
+              <li>Completed online application</li>
+              <li>Academic records and recommendations</li>
+              <li>Interview and placement review</li>
+              <li>Scholarship and fee guidance</li>
+            </ul>
+            <div class="admission-box glass-card">
+              <strong>Scholarship Opportunity</strong>
+              <p>Merit-based scholarships are available for strong academic and leadership profiles.</p>
+            </div>
+          </div>
+          <form class="application-form glass-card">
+            <div class="form-row">
+              <label>First Name<input type="text" placeholder="Jane" /></label>
+              <label>Last Name<input type="text" placeholder="Doe" /></label>
+            </div>
+            <div class="form-row">
+              <label>Email<input type="email" placeholder="jane@email.com" /></label>
+              <label>Phone<input type="tel" placeholder="0712345678" /></label>
+            </div>
+            <label>Program of Interest
+              <select>
+                <option>STEM</option>
+                <option>Humanities</option>
+                <option>Arts</option>
+                <option>Mixed Curriculum</option>
+              </select>
+            </label>
+            <label>Message<textarea rows="4" placeholder="Tell us about your child..."></textarea></label>
+            <button class="specular-button specular-button--md btn btn-primary" type="button">
+              <span class="specular-button__label">Submit Application</span>
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section alt-section" id="student-life">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-tag">Student Life</p>
+            <h2>From clubs to sport, every learner discovers their voice.</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>STEM Hub</h3>
+              <p>Robotics, coding labs, and innovation projects.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Sports & Athletics</h3>
+              <p>Track, football, basketball, and leadership pathways.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Arts & Culture</h3>
+              <p>Music, drama, debate, and visual expression.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Boarding Facilities</h3>
+              <p>Warm, secure residential spaces with wellness support.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="gallery">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-tag">Gallery</p>
+            <h2>Moments that capture courage, curiosity, and joy.</h2>
+          </div>
+          <div class="gallery-grid">
+            <div class="gallery-item tall">STEM Expo</div>
+            <div class="gallery-item">Graduation</div>
+            <div class="gallery-item">Sports Day</div>
+            <div class="gallery-item wide">School Choir</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-section" id="news">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-tag">News & Events</p>
+            <h2>Newsfeed and campus highlights.</h2>
+          </div>
+          <div class="news-grid">
+            <article class="news-item">
+              <span>27 Aug</span>
+              <h3>School opens science innovation week</h3>
+              <p>Students showcase practical inventions and robotics demonstrations.</p>
+            </article>
+            <article class="news-item">
+              <span>03 Sep</span>
+              <h3>Parent open day and admissions briefing</h3>
+              <p>Families meet teachers, tour the campus, and explore programs.</p>
+            </article>
+            <article class="news-item">
+              <span>12 Sep</span>
+              <h3>Inter-school athletics championship</h3>
+              <p>Our athletes compete in a community-wide festival of teamwork and excellence.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="staff">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-tag">Staff Directory</p>
+            <h2>Experienced educators guiding each learner forward.</h2>
+          </div>
+          <div class="staff-grid">
+            <article class="staff-card glass-card">
+              <div class="avatar large">HN</div>
+              <h3>Hellen Njeri</h3>
+              <p>Head of Sciences</p>
+            </article>
+            <article class="staff-card glass-card">
+              <div class="avatar large">JM</div>
+              <h3>James Mwangi</h3>
+              <p>ICT Department</p>
+            </article>
+            <article class="staff-card glass-card">
+              <div class="avatar large">AK</div>
+              <h3>Alice Kamau</h3>
+              <p>Languages Department</p>
+            </article>
+            <article class="staff-card glass-card">
+              <div class="avatar large">CT</div>
+              <h3>Caleb Taita</h3>
+              <p>Guidance & Counselling</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-section" id="contact">
+        <div class="container two-col">
+          <div>
+            <p class="section-tag">Contact</p>
+            <h2>Visit, call, or message us.</h2>
+            <div class="contact-list">
+              <p><strong>Phone:</strong> <a href="tel:+254700000000">+254 700 000 000</a></p>
+              <p><strong>Email:</strong> <a href="mailto:info@gichurums.co.ke">info@gichurums.co.ke</a></p>
+              <p><strong>Address:</strong> 22 Education Way, Nairobi, Kenya</p>
+            </div>
+          </div>
+          <form class="application-form glass-card">
+            <label>Name<input type="text" placeholder="Your name" /></label>
+            <label>Email<input type="email" placeholder="Your email" /></label>
+            <label>Subject<input type="text" placeholder="Enquiry" /></label>
+            <label>Message<textarea rows="4" placeholder="How may we help?"></textarea></label>
+            <button class="specular-button specular-button--md btn btn-primary" type="button">
+              <span class="specular-button__label">Send Message</span>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Gichuru Memorial Senior School</h3>
+          <p>Excellence Through Knowledge, Discipline, and Integrity.</p>
+        </div>
+        <div>
+          <a href="portal.html" class="specular-button specular-button--sm btn btn-portal">
+            <span class="specular-button__label">Student Portal</span>
+          </a>
+          <a href="admin.html" class="specular-button specular-button--sm btn btn-portal">
+            <span class="specular-button__label">Admin Dashboard</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="search-modal" aria-hidden="true">
+      <div class="search-modal-content glass-card">
+        <div class="search-header">
+          <input type="text" id="searchInput" placeholder="Search departments, news, staff, events..." />
+          <button class="close-search" aria-label="Close search">×</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+      </div>
+    </div>
+
+    <button class="scroll-top">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

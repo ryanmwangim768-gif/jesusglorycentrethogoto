@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portal | Gichuru Memorial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="portal-body">
+    <header class="portal-topbar">
+      <div class="container portal-header-wrap">
+        <div>
+          <strong>Student Portal</strong>
+          <span>Welcome, Mercy Akinyi</span>
+        </div>
+        <a href="index.html" class="btn btn-ghost">Back to Site</a>
+      </div>
+    </header>
+
+    <main class="container portal-layout">
+      <aside class="portal-sidebar glass-card">
+        <h3>Quick Access</h3>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#results">Results</a>
+        <a href="#timetable">Timetable</a>
+        <a href="#fees">Fees</a>
+        <a href="#announcements">Announcements</a>
+      </aside>
+
+      <section class="portal-content">
+        <div class="portal-card-grid">
+          <article class="portal-card glass-card" id="dashboard">
+            <h3>Upcoming Assignments</h3>
+            <ul>
+              <li>English essay due Friday</li>
+              <li>Biology practical review</li>
+              <li>Mathematics worksheet</li>
+            </ul>
+          </article>
+          <article class="portal-card glass-card" id="results">
+            <h3>Current Results</h3>
+            <div class="results-row"><span>Maths</span><strong>88%</strong></div>
+            <div class="results-row"><span>Physics</span><strong>84%</strong></div>
+            <div class="results-row"><span>English</span><strong>91%</strong></div>
+          </article>
+          <article class="portal-card glass-card" id="timetable">
+            <h3>Timetable</h3>
+            <p>Monday: Maths · Physics · English · Chemistry</p>
+          </article>
+          <article class="portal-card glass-card" id="fees">
+            <h3>Fee Status</h3>
+            <p>Term 2 balance: KES 4,500</p>
+          </article>
+          <article class="portal-card glass-card" id="announcements">
+            <h3>Announcements</h3>
+            <p>Exam briefing on Thursday at 2:00 PM.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
