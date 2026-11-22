@@ -42,7 +42,7 @@ main { overflow: clip; }
 
 .hero { position: relative; min-height: min(700px, calc(100svh - 82px)); display: flex; align-items: center; color: var(--white); background: #111f39; overflow: hidden; }
 .hero-image, .hero-shade { position: absolute; inset: 0; }
-.hero-image { background: url('/jesusglorycentrethogoto/jesus-glory-centre-worship.png') center 43%/cover no-repeat; animation: hero-arrive 1.2s ease-out both; }
+.hero-image { background: url('/jesusglorycentrethogoto/jesus-glory-centre-hero.JPG') center 43%/cover no-repeat; animation: hero-arrive 1.2s ease-out both; }
 .hero-shade { background: linear-gradient(90deg, rgba(12, 24, 45, .92) 0%, rgba(12, 24, 45, .78) 42%, rgba(12, 24, 45, .19) 100%), linear-gradient(0deg, rgba(12, 24, 45, .37), transparent 38%); }
 .hero-content { position: relative; z-index: 1; width: min(1320px, 100%); margin: 0 auto; padding: 82px 6.5% 90px; animation: fade-up .8s .08s both; }
 .eyebrow, .section-overline { font-size: 9px; font-weight: 700; letter-spacing: 1.55px; }

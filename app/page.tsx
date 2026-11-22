@@ -94,7 +94,7 @@ export default function HomePage() {
       </header>
 
       <section className="hero" id="home">
-        <div className="hero-image" role="img" aria-label="A church congregation gathered in worship" />
+        <div className="hero-image" role="img" aria-label="Jesus Glory Centre congregation worshipping together" />
         <div className="hero-shade" />
         <div className="hero-content">
           <p className="eyebrow hero-eyebrow"><span /> A CHURCH FAMILY IN THOGOTO, KENYA</p>
