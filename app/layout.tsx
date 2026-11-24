@@ -2,6 +2,10 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://jgcmchurch-glitch.github.io/jesusglorycentrethogoto'),
+  alternates: {
+    canonical: '/',
+  },
   title: 'Jesus Glory Centre Ministries | Thogoto, Kenya',
   description:
     'Welcome to Jesus Glory Centre Ministries in Thogoto, Kenya — a place of faith, hope, love and transformation. Join us for worship, fellowship and community.',
